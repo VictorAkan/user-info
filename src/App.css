@@ -6,10 +6,64 @@
   height: 40vmin;
   pointer-events: none;
 }
+.sidenav {
+  width: 14rem;
+  height: 100vh;
+}
+.sidenav button {
+  text-decoration: none;
+  color: grey;
+  padding-left: 5rem;
+  padding-right: 4rem;
+  background-color: transparent;
+  border: none;
+}
+.f-link {
+  padding-top: 2rem;
+}
+ .o-link{
+  margin-top: 5rem;
+}
+.sidenav button:hover {
+  color: white;
+}
+.main-info {
+  width: 70rem;
+}
+.card {
+  margin-top: 3rem;
+  border: none;
+  border-radius: 2rem;
+}
+img {
+  width: 7.9rem;
+  height: 9rem;
+}
+.user-office {
+  color: rgb(116, 115, 115);
+}
+.user-school {
+  color: grey
+}
+.card-details i {
+  font-size: 1.3rem;
+}
+.side-bg {
+  background-color: #212529;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media (max-width:769px) {
+  .sidenav {
+    display: none !important;
+  }
+  .side-bg {
+    background-color: transparent;
   }
 }
 
